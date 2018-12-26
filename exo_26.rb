@@ -10,8 +10,8 @@ while current != '.' do
 end
 smallest=usr_array[0]
 i=0
-while i < (usr_array.length-2) do
-	if usr_array[i]>usr_array[(i+1)]
+while i <= (usr_array.length-2) do
+	if smallest>usr_array[(i+1)]
 		smallest = usr_array[(i+1)]
 	end
 	i += 1
